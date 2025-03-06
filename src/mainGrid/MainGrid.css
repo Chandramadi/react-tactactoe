@@ -1,0 +1,50 @@
+
+.mainGrid-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.mainGrid-wrapper > h2 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.mainGrid-startGame {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.mainGrid-startGame > h1 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.mainGrid-Grids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.mainGrid-reset-button {
+    background-color: red;
+    margin-top: 15px;
+    height: 30px;
+    width: 60px;
+    border-radius: 3px;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: 700;
+    color: rgb(255, 248, 241);
+}
+
+.mainGrid-reset-button:hover {
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+}

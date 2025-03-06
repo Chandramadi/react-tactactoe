@@ -1,0 +1,21 @@
+
+.grid-wrapper {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+.grid-wrapper:hover{
+    cursor: pointer;
+}
+
+.grid-value {
+    font-size: 50px;
+    font-weight: 500;
+}
+
